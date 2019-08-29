@@ -258,6 +258,13 @@ section:after {
     color: #fff;
 }
 
+.box .content h4 {
+    text-align: right;
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+}
+
 .box .content p,
 ul {
     margin: 0;
