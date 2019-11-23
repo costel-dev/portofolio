@@ -1,345 +1,330 @@
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #000;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
 }
-
 
 /* Header style for index.html and page2.html */
 
 .header {
-    margin: 0;
-    padding: 0;
-    background-color: #000;
+  margin: 0;
+  padding: 0;
+  background-color: #000;
 }
 
 .home {
-    color: aliceblue;
+  color: aliceblue;
 }
 
 .homeIcon .icon {
-    font-size: 30px;
+  font-size: 3vw;
 }
 
 .homeIcon {
-    padding-top: 2%;
-    padding-left: 3%;
+  padding-top: 2%;
+  padding-left: 3%;
 }
 
 .homeIcon .icon .fa {
-    color: aliceblue;
+  color: aliceblue;
 }
 
 .homeIcon .icon:hover .fa {
-    color: aliceblue;
-    transform: scale(2);
-    transition-duration: 2s;
+  color: aliceblue;
+  transform: scale(2);
+  transition-duration: 2s;
 }
 
-
 /*End of header */
-
 
 /*Footer style for index.html and page2.html*/
 
 .footer {
-    position: relative;
-    bottom: 0;
-    background: #000;
-    color: whitesmoke;
-    text-align: center;
-    height: 20px;
+  position: relative;
+  bottom: 0;
+  background: #000;
+  color: whitesmoke;
+  text-align: center;
+  height: 20px;
 }
-
 
 /*End of footer*/
 
-
 /*===============================*/
 
-
 /*CSS Style for index.html */
-
 
 /*Styling for Name & Smoke Effects */
 
 section {
-    height: 100vh;
-    background: #000;
+  height: 100vh;
+  background: #000;
 }
 
 video {
-    width: 100%;
-    height: 500px;
-    object-fit: none;
-    object-position: 50% 30%;
+  width: 100%;
+  height: 90vh;
+  object-fit: none;
+  object-position: 50% 40%;
 }
 
 h1 {
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    top: 60%;
-    transform: translateY(-50%);
-    width: 100%;
-    text-align: center;
-    font-family: sans-serif;
-    color: #fff;
-    font-size: 8em;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 65%;
+  transform: translateY(-50%);
+  width: 100vw;
+  text-align: center;
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 8vw;
 }
 
 h1 span {
-    opacity: 0;
-    display: inline-block;
-    filter: blur(1px);
-    animation: animate 1s linear forwards;
+  opacity: 0;
+  display: inline-block;
+  filter: blur(1px);
+  animation: animate 1s linear forwards;
 }
 
 @keyframes animate {
-    0% {
-        filter: blur(10px);
-        opacity: 0;
-        transform: rotateY(90deg);
-    }
-    100% {
-        filter: blur(0);
-        opacity: 1;
-        transform: rotateY(0deg);
-    }
+  0% {
+    filter: blur(10px);
+    opacity: 0;
+    transform: rotateY(90deg);
+  }
+  100% {
+    filter: blur(0);
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
 }
 
 h1 span:nth-child(1) {
-    animation-delay: 1s;
+  animation-delay: 1s;
 }
 
 h1 span:nth-child(2) {
-    animation-delay: 2s;
+  animation-delay: 2s;
 }
 
 h1 span:nth-child(3) {
-    animation-delay: 2.5s;
+  animation-delay: 2.5s;
 }
 
 h1 span:nth-child(4) {
-    animation-delay: 3s;
+  animation-delay: 3s;
 }
 
 h1 span:nth-child(5) {
-    animation-delay: 3.5s;
+  animation-delay: 3.5s;
 }
 
 h1 span:nth-child(6) {
-    animation-delay: 3.75s;
+  animation-delay: 3.75s;
 }
 
 h1 span:nth-child(7) {
-    animation-delay: 4s;
+  animation-delay: 4s;
 }
 
 h1 span:nth-child(8) {
-    animation-delay: 4.25s;
+  animation-delay: 4.25s;
 }
 
 h1 span:nth-child(9) {
-    animation-delay: 4.5s;
+  animation-delay: 4.5s;
 }
 
 h1 span:nth-child(10) {
-    animation-delay: 4.75s;
+  animation-delay: 4.75s;
 }
 
 h1 span:nth-child(11) {
-    animation-delay: 5s;
+  animation-delay: 5s;
 }
 
 section:after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(to right, #f00, #f00, #0f0, #00f, #ff0, #0ff);
-    mix-blend-mode: color;
-    pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(to right, #f00, #f00, #0f0, #00f, #ff0, #0ff);
+  mix-blend-mode: color;
+  pointer-events: none;
 }
-
 
 /*End styling of Name & Smoke */
 
-
 /*=================================================*/
 
-
 /*CSS Style for costel.dev/2 */
-
 
 /*CSS Style for body-container*/
 
 .more-body {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* change later */
-    min-height: 100vh;
-    font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* change later */
+  min-height: 100vh;
+  font-family: "Poppins", sans-serif;
 }
 
 .container {
-    position: relative;
-    width: 90%;
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    grid-template-rows: auto;
-    grid-gap: 0 40px;
+  position: relative;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  grid-template-rows: auto;
+  grid-gap: 0 40px;
 }
 
 .container .box {
-    position: relative;
-    height: 450px;
-    background: #000;
-    display: flex;
-    justify-content: center;
-    align-items: top;
-    border: 1px solid #000;
+  position: relative;
+  height: 450px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: top;
+  border: 1px solid #000;
 }
 
 .container .box:before {
-    content: '';
-    position: absolute;
-    top: 2px;
-    left: 2px;
-    right: 2px;
-    bottom: 2px;
-    background: #fff;
-    transform: skew(2deg, 2deg);
-    z-index: -1;
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  right: 2px;
+  bottom: 2px;
+  background: #fff;
+  transform: skew(2deg, 2deg);
+  z-index: -1;
 }
 
 .container .box:nth-child(1):before {
-    background: linear-gradient(315deg, #ff0057, #e64a19);
+  background: linear-gradient(315deg, #ff0057, #e64a19);
 }
 
 .container .box:nth-child(2):before {
-    background: linear-gradient(315deg, #89ff00, #00bcd4)
+  background: linear-gradient(315deg, #89ff00, #00bcd4);
 }
 
 .container .box:nth-child(3):before {
-    background: linear-gradient(315deg, #e91e63, #5d02ff)
+  background: linear-gradient(315deg, #e91e63, #5d02ff);
 }
 
 .container .box:nth-child(4):before {
-    background: linear-gradient(315deg, #ff0000, #ffc107)
+  background: linear-gradient(315deg, #ff0000, #ffc107);
 }
 
 .container .box:after {
-    content: '';
-    position: absolute;
-    top: 8px;
-    left: 8px;
-    width: 40%;
-    height: 80%;
-    background: rgba(255, 255, 255, 0.05);
-    pointer-events: none;
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  width: 40%;
+  height: 80%;
+  background: rgba(255, 255, 255, 0.05);
+  pointer-events: none;
 }
 
 .content {
-    position: relative;
-    padding: 0px 20px;
-    transform: translateY(40px);
+  position: relative;
+  padding: 0px 20px;
+  transform: translateY(40px);
 }
 
 .box .content h3 {
-    text-align: center;
-    font-size: 24px;
-    font-weight: 600;
-    color: #fff;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  color: #fff;
 }
 
 .box .content h4 {
-    text-align: right;
-    font-size: 20px;
-    font-weight: 500;
-    color: #fff;
+  text-align: right;
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
 }
 
 .box .content p,
 ul {
-    margin: 0;
-    padding: 0;
-    color: #fff;
-    font-size: 16px;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 16px;
 }
 
 ul.indent-list {
-    list-style-position: inside;
+  list-style-position: inside;
 }
 
 p {
-    text-indent: 2em;
+  text-indent: 2em;
 }
 
 .box .content a {
-    position: relative;
-    margin: 20px 0 0;
-    padding: 10px 20px;
-    text-decoration: none;
-    border: 1px solid #fff;
-    display: inline-block;
-    color: #fff;
-    transition: 0.5s;
-    transform: translateY(-40px);
-    opacity: 0;
-    visibility: hidden;
+  position: relative;
+  margin: 20px 0 0;
+  padding: 10px 20px;
+  text-decoration: none;
+  border: 1px solid #fff;
+  display: inline-block;
+  color: #fff;
+  transition: 0.5s;
+  transform: translateY(-40px);
+  opacity: 0;
+  visibility: hidden;
 }
 
 .box:hover .content a {
-    transform: translateY(0);
-    opacity: 1;
-    visibility: visible;
+  transform: translateY(0);
+  opacity: 1;
+  visibility: visible;
 }
 
 .box .content a:hover {
-    color: #000;
-    background: #fff;
+  color: #000;
+  background: #fff;
 }
-
 
 /*Styling of my contact form*/
 
 .form {
-    width: 80%;
+  width: 80%;
 }
 
 .form-text {
-    color: whitesmoke;
+  color: whitesmoke;
 }
 
 #send {
-    width: 60px;
-    height: 30px;
-    border: 2px solid lightgray;
-    border-radius: 15%;
-    background-color: black;
-    color: whitesmoke;
+  width: 60px;
+  height: 30px;
+  border: 2px solid lightgray;
+  border-radius: 15%;
+  background-color: black;
+  color: whitesmoke;
 }
 
 #reset {
-    width: 60px;
-    height: 30px;
-    border: 2px solid lightgray;
-    border-radius: 15%;
-    background-color: black;
-    color: whitesmoke;
+  width: 60px;
+  height: 30px;
+  border: 2px solid lightgray;
+  border-radius: 15%;
+  background-color: black;
+  color: whitesmoke;
 }
-
 
 /*End styling of my contact form*/
 
-
 /*End of styling second page*/
-
 
 /*=========================================*/
