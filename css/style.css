@@ -81,12 +81,24 @@ h1 {
   font-size: 8vw;
 }
 
-h1 span {
+/* h1 span {
   opacity: 0;
   display: inline-block;
   filter: blur(1px);
   animation: animate 1s linear forwards;
+} */
+h1 span {
+  opacity: 0;
+  display: inline-block;
+  filter: blur(1px);
+  -webkit-animation-name: animate;
+  -webkit-animation-duration: 1s;
+  animation-name: animate;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
 }
+
 /* ************************************ */
 @keyframes animate {
   0% {
