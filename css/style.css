@@ -87,7 +87,7 @@ h1 span {
   filter: blur(1px);
   animation: animate 1s linear forwards;
 }
-
+/* ************************************ */
 @keyframes animate {
   0% {
     filter: blur(10px);
@@ -100,6 +100,19 @@ h1 span {
     transform: rotateY(0deg);
   }
 }
+@-webkit-keyframes animate {
+  0% {
+    filter: blur(10px);
+    opacity: 0;
+    transform: rotateY(90deg);
+  }
+  100% {
+    filter: blur(0);
+    opacity: 1;
+    transform: rotateY(0deg);
+  }
+}
+/* ************************************ */
 
 h1 span:nth-child(1) {
   animation-delay: 1s;
