@@ -56,50 +56,6 @@ body {
 
 /*Styling for Name & Smoke Effects */
 
-/* For mobile phones: */
-@media only screen and (max-width: 768px) {
-  video {
-    width: 100%;
-    height: 100vh;
-    object-fit: none;
-    transform: rotate(90deg);
-  }
-  h1 {
-    margin-left: 0;
-    padding-left: 0;
-    position: absolute;
-    top: 55%;
-    transform: translateY(-50%);
-    width: 100vw;
-    writing-mode: vertical-lr;
-    text-orientation: upright;
-    font-family: sans-serif;
-    color: #fff;
-    font-size: 6vw;
-  }
-  section:after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(
-      to right,
-      #f00,
-      rgb(255, 0, 76),
-      #0f0,
-      #00f,
-      #ff0,
-      #0ff
-    );
-    mix-blend-mode: color;
-    pointer-events: none;
-    transform: rotate(90deg);
-  }
-}
-/* ******************************* */
-
 section {
   height: 100vh;
   background: #000;
