@@ -56,6 +56,50 @@ body {
 
 /*Styling for Name & Smoke Effects */
 
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  video {
+    width: 100%;
+    height: 100vh;
+    object-fit: none;
+    transform: rotate(90deg);
+  }
+  h1 {
+    margin-left: 0;
+    padding-left: 0;
+    position: absolute;
+    top: 55%;
+    transform: translateY(-50%);
+    width: 100vw;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-family: sans-serif;
+    color: #fff;
+    font-size: 6vw;
+  }
+  section:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      to right,
+      #f00,
+      rgb(255, 0, 76),
+      #0f0,
+      #00f,
+      #ff0,
+      #0ff
+    );
+    mix-blend-mode: color;
+    pointer-events: none;
+    transform: rotate(90deg);
+  }
+}
+/* ******************************* */
+
 section {
   height: 100vh;
   background: #000;
@@ -128,46 +172,57 @@ h1 span {
 
 h1 span:nth-child(1) {
   animation-delay: 1s;
+  -webkit-animation-delay: 1s;
 }
 
 h1 span:nth-child(2) {
   animation-delay: 2s;
+  -webkit-animation-delay: 2s;
 }
 
 h1 span:nth-child(3) {
   animation-delay: 2.5s;
+  -webkit-animation-delay: 2.5s;
 }
 
 h1 span:nth-child(4) {
   animation-delay: 3s;
+  -webkit-animation-delay: 3s;
 }
 
 h1 span:nth-child(5) {
   animation-delay: 3.5s;
+  -webkit-animation-delay: 3.5s;
 }
 
 h1 span:nth-child(6) {
   animation-delay: 3.75s;
+  -webkit-animation-delay: 3.75s;
 }
 
 h1 span:nth-child(7) {
   animation-delay: 4s;
+  -webkit-animation-delay: 4s;
 }
 
 h1 span:nth-child(8) {
   animation-delay: 4.25s;
+  -webkit-animation-delay: 4.25s;
 }
 
 h1 span:nth-child(9) {
   animation-delay: 4.5s;
+  -webkit-animation-delay: 4.5s;
 }
 
 h1 span:nth-child(10) {
   animation-delay: 4.75s;
+  -webkit-animation-delay: 4.75s;
 }
 
 h1 span:nth-child(11) {
   animation-delay: 5s;
+  -webkit-animation-delay: 5s;
 }
 
 section:after {
